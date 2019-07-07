@@ -1,0 +1,301 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #7fff00;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.none {
+    display: none;
+}
+
+.quest__gif {
+    width: 506px;
+    height: 337px;
+}
+
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #000;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border: 3px solid #7fff00;
+}
+
+    button:hover {
+        background-color: #7fff00;
+        color: #000;
+    }
+
+input {
+    background-color: #000;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border: 3px solid #7fff00;
+    color: #7fff00;
+}
+
+/*@font-face {*/
+    /*font-family: Fallout;*/
+    /*src: url(Fonts/14262.ttf);*/
+/*}*/
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+}
+
+    .wrapper__img {
+        margin-top: 50px;
+
+        /*border-left: 5px solid #7fff00;*/
+        /*border-right: 5px solid #7fff00;*/
+        /*padding: 10px;*/
+        /*border-radius: 15px;*/
+    }
+
+.quest__title {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.quest__success {
+    display: none;
+    margin-top: 200px;
+}
+
+.quest__end {
+    display: none;
+    margin-top: 200px;
+}
+
+    .quest__end-text {
+        margin-bottom: 25px;
+        margin-top: 25px;
+        font-size: 25px;
+    }
+
+    .quest__gif-success {
+        margin-top: 50px;
+    }
+
+    .quest__success-text {
+        text-align: center;
+        font-size: 50px;
+    }
+
+/****************************************ОБЩИЕs:***************************************/
+
+.text {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.password {
+    font-size: 20px;
+}
+
+/****************************************FIRST:***************************************/
+
+.quest__first {
+    display: flex;
+    flex-direction: column;
+}
+
+/****************************************SECOND:***************************************/
+
+.second__text {
+    color: #000;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+    .second__EE {
+        color: #121212;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+        .second__EE::selection {
+            background: transparent;
+        }
+
+        .second__EE::-moz-selection {
+            background: transparent;
+        }
+
+    .second__text::selection {
+        background: transparent;
+    }
+
+    .second__text::-moz-selection {
+        background: transparent;
+    }
+
+
+/****************************************THIRD:***************************************/
+
+.quest__third {
+    position: relative;
+}
+
+    .third__button {
+        background-color: #000000;
+        border: none;
+        padding: 25px;
+        position: absolute;
+        bottom: -300px;
+        left: 200px;
+        color: #000;
+    }
+
+        .third__button:hover {
+            background-color: #000000;
+            border: none;
+        }
+
+/****************************************FOURTH:***************************************/
+
+.fourth__EE {
+    color: #000;
+    text-align: center;
+}
+
+/****************************************FIFTH:***************************************/
+
+.fifth__EE {
+    text-align: center;
+    display: inherit;
+    margin-bottom: 20px;
+}
+
+/****************************************EIGHTH:***************************************/
+
+.quest__eighth {
+    position: relative;
+}
+
+    .eighth__button {
+        background-color: #000;
+        position: absolute;
+        border: none;
+        color: #000;
+    }
+
+        .eighth__one {
+            left: 118px;
+            top: 500px;
+        }
+
+        .eighth__two {
+            left: -290px;
+            top: -50px;
+        }
+
+        .eighth__three {
+            padding: 5px;
+            left: 315px;
+            bottom: -249px;
+        }
+
+        .eighth__four {
+            padding: 3px;
+            left: 120px;
+            bottom: 30px;
+        }
+
+        .eighth__five {
+            padding: 10px;
+            left: 197px;
+            top: 100px;
+        }
+
+        .eighth__six {
+            padding: 15px;
+            left: -200px;
+            top: -27px;
+        }
+
+        .eighth__seven {
+            padding: 20px;
+            left: 354px;
+            top: 236px;
+        }
+
+        .eighth__eight {
+            padding: 17px;
+            left: 200px;
+            top: 400px;
+        }
+
+        .eighth__nine {
+            padding: 13px;
+            left: 400px;
+            top: 400px;
+        }
+
+        .eighth__ten {
+            padding: 7px;
+            left: -400px;
+            top: 153px;
+        }
+
+/****************************************NINTH:***************************************/
+
+.quest__ninth {
+    position: relative;
+}
+
+    .ninth__button--hide {
+        position: absolute;
+        border: none;
+        background-color: #000;
+        padding: 5px;
+        top: 439px;
+        left: 200px;
+        color: #000;
+    }
+
+        .ninth__button--hide:hover {
+            background-color: #000;
+        }
+
+/****************************************TENTH:***************************************/
+
+.tenth__EE:hover {
+    color: #000;
+}
+
+/****************************************FINAL:***************************************/
+
+.final__text {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+    .final__code {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
